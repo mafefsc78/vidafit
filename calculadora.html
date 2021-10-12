@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title> Calculadora IMC</title>
+	<link rel="stylesheet" type="text/css" href="css/estilo.css">
+</head>
+<body>
+	<h1>Vida Fit</h1>
+
+        <ul id="barradenavegar">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="calculadora.html">Calculadora IMC</a></li>
+           
+        </ul>
+	<div class = "valor">
+		<p>Nome: <input type="text" name="numero" id="nome"></p>
+	    <p>Peso: <input autofocus type="text" name="numero" id="peso"></p>
+	    <p>Altura: <input type="text" name="numero" id="alt"></p>
+	</div>
+	<div class = "botao">
+	    <input type="submit" value="Calcular" id="calcular">
+	</div>
+	<p id="resultado"></p>
+
+	<script>
+	var calculadora = function() {
+	    var peso = document.getElementById("peso");
+	    var alt = document.getElementById("alt");
+	    var nome = document.getElementById("nome");
+	    var resultado = (peso.value/(alt.value * alt.value));
+	    
+
+	    if(resultado<18.5) {
+	    	document.getElementById('resultado').textContent = nome.value + " seu IMC é: " + (peso.value/(alt.value * alt.value)) + " está abaixo do peso.";
+	    }
+	    else if (resultado>24.9) {
+	    	document.getElementById('resultado').textContent = nome.value + " seu IMC é: " + (peso.value/(alt.value * alt.value)) + " está acima do peso.";
+	    }
+	    else{
+	    	document.getElementById('resultado').textContent = nome.value + " seu IMC é: " + (peso.value/(alt.value * alt.value)) + " está no peso.";
+	    }
+	}
+	
+
+	var botao = document.getElementById("calcular");
+	botao.onclick = calculadora;
+	</script>
+</body>
+</html>
