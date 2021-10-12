@@ -1,0 +1,130 @@
+body {
+    background-color: #ffc4d8;
+}
+
+h1 {
+    font-family: Cursive;
+    font-size: 50px;
+    background-color: #F8FCFF;
+    padding: 30px;
+    border-radius: 10px;
+    color: #003424;
+    font-style: italic;
+    text-transform: uppercase;
+}
+
+p{
+    font-family: Helvetica, Sans-serif;
+}
+
+#barradenavegar {
+    background-color: #003424;
+    color: #E7EEF4;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+#barradenavegar li {
+    display: inline;
+    font-family: Tahoma, Geneva, sans-serif;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+li a {
+    color: #E7EEF4;
+    text-decoration: none;
+    padding: 10px;
+}
+
+#barradenavegar li a:hover {
+    background-color: #3A98E9;
+    padding: 10px;
+    color: #ffffff;
+}
+
+
+.barrasobre {
+    background-color: #ffffff;
+    border-radius: 3px;
+    padding: 50px;
+    float: left;
+    width: 30%;
+    font-size: 12px;
+
+    color: ##003424;
+}
+
+.barrasobre p {
+    font-family:"Lucida Console", Monaco, monospace;
+}
+
+#barrasobre-image {
+    border: #003424 5px solid;
+    border-radius: 3px;
+    width: 140px;
+}
+
+.site a {
+    color: #ff6f9c;
+}
+
+.site a:hover, a:active{
+    color: #BE81F7;
+}
+
+.post-container {
+    background-color: #FFFFFF;
+    border-radius: 3px;
+    color: #787878;
+    font-family: Helvetica, Sans-serif;
+    padding: 5px;
+    width: 65%;
+    float: left;
+    margin-bottom: 10px;
+}
+
+.post-image {
+    width: 60%;
+    margin: 5px;
+    padding: 5px;
+}
+
+blockquote {
+    font-style: italic;
+    font-size: 11px;
+}
+
+
+.line-through {
+    text-decoration:line-through;
+}
+
+hr {
+    color: #ffffff;
+    border: dashed 1px #56DBC3;
+    
+}
+
+h2 {
+    color: #003424;
+    font-family: Impact;
+}
+
+h3 {
+    color: #084B8A;
+    font-family: Impact;
+}
+
+.valor {
+    font-family: Impact;
+}
+
+h6 {
+    color: #2E2E2E;
+    font-family: "Courier New", Courier, monospace;
+}
+
+}
+}
+
